@@ -1,0 +1,11 @@
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+source ~/.bash_profile  # or source ~/.zshrc or source ~/.profile depending on your shell
+
+node -v
+npm -v
+
+nvm list
+
+nvm use 14
